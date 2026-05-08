@@ -1155,7 +1155,7 @@
     }
     .about-logo-inner {
       width: 100%; height: 100%; border-radius: 50%;
-      background: #fff url("logo.png") center/80% no-repeat;
+      background: #fff url("Logo.png") center/80% no-repeat;
       animation: rotateRing 16s linear infinite reverse;
     }
     .about-floats {
