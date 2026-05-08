@@ -1,0 +1,583 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chavisto's Travel and Tourism offers premium transport, airport transfers, executive rides, and group travel services across Johannesburg and Gauteng.">
+  <meta property="og:title" content="Chavisto's Travel & Tourism">
+  <meta property="og:description" content="Premium private and corporate transport with fast booking and 24/7 support.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://chavistotravel.co.za/logo.png">
+  <meta property="og:url" content="https://chavistotravel.co.za/">
+  <meta name="theme-color" content="#0f2a5f">
+  <title>Chavisto's Travel & Tourism</title>
+  <link rel="icon" href="./favicon.ico">
+  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    /* Render fallback in case external CSS fails to load */
+    html, body { margin: 0; padding: 0; background: #fff; color: #111; }
+    .shell, .panel { display: block !important; visibility: visible !important; opacity: 1 !important; }
+  </style>
+</head>
+<body>
+  <!-- Scroll progress -->
+  <div class="scroll-progress" aria-hidden="true"><div class="bar" id="progressBar"></div></div>
+  <!-- Cursor glow (desktop only) -->
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <div class="shell">
+    <div class="panel">
+
+      <!-- NAV -->
+      <nav class="nav">
+        <div class="brand">
+          <div class="logo-mark"><img src="logo.png" alt="Chavisto's Travel and Tourism logo" fetchpriority="high" decoding="async" onerror="this.style.display='none'"></div>
+        </div>
+        <ul class="links" id="links">
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#booking-process">Booking</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#faqs">FAQs</a></li>
+          <li class="menu-credit">
+            <span>Website developed by</span>
+            <a class="devlab-link" href="https://chabalaladevlab.co.za" target="_blank" rel="noopener noreferrer" aria-label="Visit ChabalalaDevLab website">
+              <img class="devlab-logo" src="ChabalalaDevLab (1).png" alt="ChabalalaDevLab logo" loading="lazy" decoding="async">
+            </a>
+          </li>
+        </ul>
+        <button class="nav-btn book-trigger">Book Now</button>
+        <button class="menu" id="menu" aria-label="Toggle navigation menu" aria-controls="links" aria-expanded="false"><i class="fas fa-bars"></i></button>
+      </nav>
+
+      <!-- HERO -->
+      <section class="hero" id="home">
+        <div class="hero-card" id="heroCard">
+          <div class="hero-particles" aria-hidden="true">
+            <span class="p-dot"></span><span class="p-dot"></span><span class="p-dot"></span>
+            <span class="p-dot"></span><span class="p-dot"></span><span class="p-dot"></span>
+            <span class="p-dot"></span><span class="p-dot"></span><span class="p-dot"></span>
+            <span class="p-dot"></span>
+          </div>
+          <div class="hero-left">
+            <span class="eyebrow"><i class="fas fa-shield-alt"></i>&nbsp; South Africa's Premium Transport</span>
+            <h1>Experience<br>The <em>Magic</em> Of<br>Premium Travel</h1>
+            <p>Executive rides, airport transfers, and luxury group transport with guaranteed comfort and fast booking support.</p>
+            <div class="hero-actions">
+              <button class="btn btn-blue book-trigger"><i class="fas fa-calendar-alt"></i> Book Your Next Trip</button>
+              <a class="btn btn-white" href="https://wa.me/27734428951" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            </div>
+            <div class="trust-row">
+              <span class="trust-item"><i class="fas fa-clock"></i> 24/7 Available</span>
+              <span class="trust-item"><i class="fas fa-star"></i> 5-Star Rated</span>
+              <span class="trust-item"><i class="fas fa-car"></i> 4-65 Seater Fleet</span>
+            </div>
+          </div>
+          <div class="hero-right">
+            <div class="mini-about">
+              <h3>About Chavisto's</h3>
+              <p>South Africa's trusted private and corporate transport partner with premium service and punctual operations.</p>
+              <div class="mini-line">
+                <div class="mini-dot"><i class="fas fa-user"></i></div>
+                Travel Team Available 24/7
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PARTNERS BAR -->
+      <div class="partners">
+        <div class="socials">
+          <span>Follow</span>
+          <a class="s" href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a class="s" href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a class="s" href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+          <a class="s" href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+        <span class="ptag"><i class="fas fa-tag"></i> Gift Vouchers</span>
+        <span class="ptag"><i class="fas fa-briefcase"></i> Corporate Travel</span>
+        <span class="ptag"><i class="fas fa-hotel"></i> Booking.com Partner</span>
+        <span class="ptag"><i class="fas fa-plane"></i> Airline Transfers</span>
+      </div>
+
+      <!-- DESTINATIONS -->
+      <section class="section" id="destinations">
+        <div class="head">
+          <div><h2>Popular Destinations</h2><p class="head-sub">Where do you want to go?</p></div>
+          <div class="pager"><button><i class="fas fa-angle-left"></i></button><button><i class="fas fa-angle-right"></i></button></div>
+        </div>
+        <div class="dest-grid">
+          <article class="dest">
+            <div class="dest-img" style="background-image:url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80')">
+              <span class="dest-pill">Signature</span>
+              <span class="dest-icon"><i class="fas fa-plane-departure"></i></span>
+            </div>
+            <div class="dest-body"><h3>Airport Transfers</h3><p>Luxury and punctual airport pickups for local and international flights.</p><button class="tiny-btn book-trigger">Book</button></div>
+          </article>
+          <article class="dest">
+            <div class="dest-img" style="background-image:url('https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=900&q=80')">
+              <span class="dest-pill">Executive</span>
+              <span class="dest-icon"><i class="fas fa-briefcase"></i></span>
+            </div>
+            <div class="dest-body"><h3>Business District</h3><p>Executive daily routes for meetings, conferences and private events.</p><button class="tiny-btn book-trigger">Book</button></div>
+          </article>
+          <article class="dest">
+            <div class="dest-img" style="background-image:url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=900&q=80')">
+              <span class="dest-pill">Premium</span>
+              <span class="dest-icon"><i class="fas fa-map-marked-alt"></i></span>
+            </div>
+            <div class="dest-body"><h3>Luxury Tours</h3><p>Scenic tourism experiences with chauffeur service and route planning.</p><button class="tiny-btn book-trigger">Book</button></div>
+          </article>
+          <article class="dest">
+            <div class="dest-img" style="background-image:url('https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?auto=format&fit=crop&w=900&q=80')">
+              <span class="dest-pill">Group</span>
+              <span class="dest-icon"><i class="fas fa-users"></i></span>
+            </div>
+            <div class="dest-body"><h3>Corporate Events</h3><p>High-capacity event transport from 4 to 65 seater fleet options.</p><button class="tiny-btn book-trigger">Book</button></div>
+          </article>
+        </div>
+      </section>
+
+      <!-- PACKAGES -->
+      <section class="section" id="packages">
+        <div class="head">
+          <div><h2>Travel Packages</h2><p class="head-sub">Choose the plan that fits your journey</p></div>
+          <div class="pager"><button><i class="fas fa-tag"></i></button><button><i class="fas fa-gem"></i></button></div>
+        </div>
+        <div class="pkg-grid">
+          <article class="pkg">
+            <span class="pkg-badge badge-entry">Entry</span>
+            <h3>Essential Ride</h3>
+            <div class="price">R850 <small>/ start</small></div>
+            <p>Affordable premium for private city transport and airport transfers.</p>
+            <ul>
+              <li><i class="fas fa-check-circle"></i>4 seater executive vehicle</li>
+              <li><i class="fas fa-check-circle"></i>Professional driver</li>
+              <li><i class="fas fa-check-circle"></i>WhatsApp support</li>
+            </ul>
+            <button class="tiny-btn book-trigger">Choose Package</button>
+          </article>
+          <article class="pkg featured">
+            <span class="pkg-badge badge-pro">★ Most Popular</span>
+            <h3>Business Premium</h3>
+            <div class="price">R1,950 <small>/ package</small></div>
+            <p>Built for executives, meetings and corporate route schedules.</p>
+            <ul>
+              <li><i class="fas fa-check-circle"></i>7 seater premium class</li>
+              <li><i class="fas fa-check-circle"></i>Priority dispatch</li>
+              <li><i class="fas fa-check-circle"></i>Multi-stop planning</li>
+              <li><i class="fas fa-check-circle"></i>Invoice-ready trip summary</li>
+            </ul>
+            <button class="tiny-btn book-trigger">Choose Package</button>
+          </article>
+          <article class="pkg">
+            <span class="pkg-badge badge-group">Group</span>
+            <h3>Group &amp; Event</h3>
+            <div class="price">R3,800 <small>/ start</small></div>
+            <p>Large capacity transport for events, tours and team movements.</p>
+            <ul>
+              <li><i class="fas fa-check-circle"></i>15-65 seater options</li>
+              <li><i class="fas fa-check-circle"></i>Route coordination</li>
+              <li><i class="fas fa-check-circle"></i>Dedicated travel manager</li>
+            </ul>
+            <button class="tiny-btn book-trigger">Choose Package</button>
+          </article>
+        </div>
+      </section>
+
+      <!-- BOOKING PROCESS -->
+      <section class="section process" id="booking-process">
+        <h2>Our Booking Process</h2>
+        <p>Fast, simple and premium from request to ride confirmation.</p>
+        <div class="p-grid">
+          <article class="p-card">
+            <div class="p-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="idx">01</div>
+            <strong>Find Your Destination</strong>
+          </article>
+          <article class="p-card p-hot">
+            <div class="p-icon"><i class="fas fa-calendar-check"></i></div>
+            <div class="idx">02</div>
+            <strong>Book A Ticket</strong>
+            <p>Complete details once and we confirm route, pricing and timing in minutes.</p>
+            <button class="btn btn-white book-trigger">Book</button>
+          </article>
+          <article class="p-card">
+            <div class="p-icon"><i class="fas fa-car-side"></i></div>
+            <div class="idx">03</div>
+            <strong>Confirm &amp; Ride</strong>
+          </article>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section about" id="about">
+        <div class="about-grid">
+          <div class="about-img">
+            <div class="about-visual-inner">
+              <div class="about-logo-ring">
+                <div class="about-logo-inner"></div>
+              </div>
+              <div class="about-floats">
+                <span class="about-chip"><i class="fas fa-crown"></i> Premium Fleet</span>
+                <span class="about-chip"><i class="fas fa-shield-alt"></i> Trusted Operator</span>
+                <span class="about-chip"><i class="fas fa-clock"></i> 24/7 Team</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h2>About Us</h2>
+            <p>Chavisto's Travel &amp; Tourism delivers premium transport and tourism management. From airport transfers and private city rides to corporate contracts and group events, we provide a high-end travel experience focused on comfort and reliability.</p>
+            <p>Every ride is handled with care - from the moment you book to the second you arrive. Our team operates across Johannesburg and beyond, ready to serve your every transport need.</p>
+            <div class="about-row">
+              <div class="profile"><div class="mini-dot"><i class="fas fa-user"></i></div><div><b>Head of Team</b><small>Operations &amp; Client Experience</small></div></div>
+              <button class="btn btn-blue book-trigger">Book Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ACHIEVEMENTS -->
+      <section class="section ach" id="achievements">
+        <div class="ach-wrap">
+          <div>
+            <h2>Our Achievements</h2>
+            <p>Built through consistent service quality, reliable dispatching and customer-first communication across private and corporate transport.</p>
+            <div class="stats">
+              <div class="stat hot"><strong class="counter" data-target="1800">0</strong><span>Completed Rides</span></div>
+              <div class="stat"><strong class="counter" data-target="2000">0</strong><span>Happy Clients</span></div>
+              <div class="stat"><strong class="counter" data-target="5">0</strong><span>Years Experience</span></div>
+              <div class="stat hot"><strong class="counter" data-target="30">0</strong><span>Corporate Accounts</span></div>
+              <div class="stat"><strong class="counter" data-target="10">0</strong><span>Tour Packages</span></div>
+              <div class="stat"><strong class="counter" data-target="10">0</strong><span>Fleet Types</span></div>
+            </div>
+          </div>
+          <div class="visual">
+            <div class="ach-trophy-scene">
+              <div class="ach-trophy-wrapper">
+                <div class="ach-particles" aria-hidden="true">
+                  <div class="ach-spark s1"></div>
+                  <div class="ach-spark s2"></div>
+                  <div class="ach-spark s3"></div>
+                  <div class="ach-spark s4"></div>
+                </div>
+                <svg class="ach-trophy-svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-label="Premium service excellence award" role="img">
+                  <defs>
+                    <linearGradient id="achBgWash" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0" stop-color="#0b2b78"/>
+                      <stop offset=".55" stop-color="#123f9a"/>
+                      <stop offset="1" stop-color="#06163e"/>
+                    </linearGradient>
+                    <linearGradient id="achFrameGrad" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0" stop-color="#6fefff"/>
+                      <stop offset=".45" stop-color="#3aa2ff"/>
+                      <stop offset="1" stop-color="#0f2a5f"/>
+                    </linearGradient>
+                    <linearGradient id="achGlass" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0" stop-color="rgba(255,255,255,.34)"/>
+                      <stop offset=".55" stop-color="rgba(255,255,255,.12)"/>
+                      <stop offset="1" stop-color="rgba(6,20,50,.4)"/>
+                    </linearGradient>
+                    <linearGradient id="achGold" x1="0" y1="0" x2="1" y2="0">
+                      <stop offset="0" stop-color="#e8c15a"/>
+                      <stop offset=".5" stop-color="#fff0b0"/>
+                      <stop offset="1" stop-color="#b8891a"/>
+                    </linearGradient>
+                    <filter id="achSoft" x="-30%" y="-30%" width="160%" height="160%">
+                      <feDropShadow dx="0" dy="10" stdDeviation="7" flood-color="#021235" flood-opacity=".55"/>
+                    </filter>
+                  </defs>
+
+                  <g filter="url(#achSoft)">
+                    <circle cx="100" cy="100" r="90" fill="url(#achBgWash)" stroke="rgba(255,255,255,.1)" />
+                    <circle cx="100" cy="100" r="82" fill="none" stroke="url(#achFrameGrad)" stroke-width="1.2" stroke-dasharray="6 10" opacity=".55">
+                      <animateTransform attributeName="transform" type="rotate" from="0 100 100" to="360 100 100" dur="32s" repeatCount="indefinite"/>
+                    </circle>
+                    <circle cx="100" cy="100" r="70" fill="none" stroke="url(#achFrameGrad)" stroke-width="0.8" stroke-dasharray="3 7" opacity=".35">
+                      <animateTransform attributeName="transform" type="rotate" from="360 100 100" to="0 100 100" dur="22s" repeatCount="indefinite"/>
+                    </circle>
+
+                    <g transform="translate(0 0)">
+                      <path
+                        d="M100 34 L150 64 L150 124 Q150 150 100 170 Q50 150 50 124 L50 64 Z"
+                        fill="url(#achGlass)"
+                        stroke="url(#achFrameGrad)"
+                        stroke-width="1.4"
+                        stroke-linejoin="round"
+                        opacity=".98"
+                      />
+                    </g>
+
+                    <g transform="translate(100 116)">
+                      <path
+                        d="M-32 0 H32 Q38 0 40 4 L40 8 Q32 2 0 2 Q-32 2 -40 8 L-40 4 Q-38 0 -32 0Z"
+                        fill="rgba(0,0,0,.2)"
+                        opacity=".35"
+                      />
+                      <rect x="-26" y="-6" width="52" height="10" rx="3" fill="url(#achGold)"/>
+                      <rect x="-22" y="-2" width="44" height="2" rx="1" fill="rgba(255,255,255,.5)" />
+                    </g>
+                  </g>
+
+                  <g>
+                    <text x="100" y="60" text-anchor="middle" font-size="7" font-weight="800" letter-spacing="0.2em" fill="rgba(200,220,255,.7)">TRUST &amp; EXCELLENCE</text>
+                    <text x="100" y="88" text-anchor="middle" font-size="9" font-weight="800" letter-spacing="0.08em" fill="#eaf6ff">CHAVISTO'S</text>
+                    <text x="100" y="100" text-anchor="middle" font-size="5.5" font-weight="700" letter-spacing="0.14em" fill="rgba(200,220,255,.6)">PREMIUM TRANSPORT</text>
+                    <text x="100" y="126" text-anchor="middle" font-size="6.5" font-weight="800" fill="url(#achGold)">5★ RATED</text>
+                  </g>
+                </svg>
+                <div class="ach-glow-ring"></div>
+              </div>
+              <div class="ach-label-block">
+                <div class="ach-label-title">Our Achievements</div>
+                <div class="ach-label-sub">Excellence &amp; Recognition</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <div class="testimonials">
+        <div class="head">
+          <div><h2>What Clients Say</h2><p class="head-sub">Real experiences from our valued passengers</p></div>
+          <div style="display:flex;align-items:center;gap:6px;color:var(--muted);font-size:.78rem;">
+            <i class="fas fa-star" style="color:#f5a623"></i>
+            <strong style="color:var(--navy)">4.9</strong>&nbsp;/ 5 rating
+          </div>
+        </div>
+        <div class="testi-grid">
+          <div class="testi">
+            <div class="testi-stars">★★★★★</div>
+            <p>"Absolutely outstanding service. Punctual, professional and the vehicle was spotless. I will definitely be using Chavisto's for all my airport transfers going forward."</p>
+            <div class="testi-author"><div class="testi-av">TM</div><div><div class="testi-name">Thabo M.</div><div class="testi-role">Corporate Client, Johannesburg</div></div></div>
+          </div>
+          <div class="testi">
+            <div class="testi-stars">★★★★★</div>
+            <p>"We booked Chavisto's for our year-end event - 40 staff transported seamlessly. The coordination was flawless and the team was incredibly responsive throughout."</p>
+            <div class="testi-author"><div class="testi-av">NS</div><div><div class="testi-name">Nomsa S.</div><div class="testi-role">HR Manager, Sandton</div></div></div>
+          </div>
+          <div class="testi">
+            <div class="testi-stars">★★★★★</div>
+            <p>"Best executive transport in Gauteng. I book the Business Premium package monthly and they have never let me down. Truly premium from booking to drop-off."</p>
+            <div class="testi-author"><div class="testi-av">KD</div><div><div class="testi-name">Kavya D.</div><div class="testi-role">Executive, Midrand</div></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQs -->
+      <section class="faq-section" id="faqs">
+        <div class="faq-head">
+          <h2>Frequently Asked Questions</h2>
+          <p>Everything you need to know before booking your next trip with Chavisto's.</p>
+        </div>
+        <div class="faq-grid">
+          <details class="faq-item">
+            <summary>What is your cancellation policy?</summary>
+            <p>Bookings can be cancelled free of charge up to 12 hours before your scheduled pickup. Cancellations made within 12 hours may attract a fee based on route planning and vehicle allocation.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How long does payment confirmation take?</summary>
+            <p>After EFT payment, send your proof of payment on WhatsApp and our team usually confirms within 5 to 15 minutes during active service hours.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What happens if I am running late for pickup?</summary>
+            <p>Please notify us on WhatsApp or call as soon as possible. We allow a short grace period and will coordinate with your driver based on traffic and your updated pickup time.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How much luggage can I bring?</summary>
+            <p>Luggage capacity depends on the vehicle selected and number of passengers. Share your luggage details when booking so we can assign the best vehicle for comfort and space.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Do you provide child seats?</summary>
+            <p>Yes, child seats can be arranged on request. Please mention your child's age and seat type needed when submitting your booking details.</p>
+          </details>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="finish" style="margin-top:30px">
+        <h2>Ready To Secure Your Package?</h2>
+        <p>Select your preferred package and we will confirm your ride plan instantly on WhatsApp.</p>
+        <button class="btn btn-gold book-trigger"><i class="fas fa-bolt"></i>&nbsp; Book Your Package Now</button>
+      </section>
+
+    </div><!-- /panel -->
+  </div><!-- /shell -->
+
+  <!-- REDESIGNED FOOTER -->
+  <section class="footer-payment payment-section" id="payment-details">
+    <div class="pay-copy">
+      <h3>Pay Directly With Confidence</h3>
+      <p>Use our secure banking details for direct EFT. Once paid, send your proof of payment via WhatsApp and we confirm your booking in minutes.</p>
+      <div class="pay-steps">
+        <div class="pay-step"><div class="pay-num">1</div><span>Transfer to the account shown on your right</span></div>
+        <div class="pay-step"><div class="pay-num">2</div><span>Screenshot your proof of payment</span></div>
+        <div class="pay-step"><div class="pay-num">3</div><span>Send via WhatsApp - booking confirmed instantly</span></div>
+      </div>
+      <a class="btn btn-blue" href="https://wa.me/27734428951" target="_blank" rel="noopener noreferrer" style="display:inline-flex;text-decoration:none;margin-top:4px"><i class="fab fa-whatsapp"></i>&nbsp; Send Proof on WhatsApp</a>
+    </div>
+
+    <!-- METALLIC CARD -->
+    <div class="card-wrap">
+      <div class="bank-card" id="bankCard">
+        <div class="card-holo"></div>
+        <div class="cglow tl"></div>
+        <div class="cglow br"></div>
+        <div class="card-inner">
+          <div class="card-top">
+            <div class="card-brand-name">
+              <span>Direct Payment Card</span>
+              <strong>Chavisto's</strong>
+            </div>
+            <div style="display:flex;gap:9px;align-items:center">
+              <div class="chip"></div>
+              <span class="card-nfc"><i class="fas fa-wifi" style="transform:rotate(90deg)"></i></span>
+            </div>
+          </div>
+          <div class="card-fields">
+            <div>
+              <div class="cfl">Account Name</div>
+              <div class="cfv">Chavisto's Travel and Tourism</div>
+            </div>
+            <div>
+              <div class="cfl">Account Number</div>
+              <div class="cfv mono">1027&nbsp;0034&nbsp;178</div>
+            </div>
+            <div class="card-bottom-row">
+              <div>
+                <div class="cfl">Swift Code</div>
+                <div class="cfv swift">SBZAZAJJ</div>
+              </div>
+              <div>
+                <div class="cfl">Bank</div>
+                <div class="cfv" style="font-size:.8rem;letter-spacing:.04em">Standard Bank</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+
+    <!-- 3-column info grid -->
+    <div class="footer-main">
+      <div class="footer-brand">
+        <div class="flogo"><img src="logo.png" alt="Chavisto's Travel and Tourism logo" loading="lazy" decoding="async" onerror="this.style.display='none'"></div>
+        <p>South Africa's trusted private and corporate transport partner. Premium service, punctual operations, and a team that genuinely cares about your journey.</p>
+        <div class="footer-socials">
+          <a class="fsoc" href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a class="fsoc" href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a class="fsoc" href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          <a class="fsoc" href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+          <a class="fsoc" href="https://wa.me/27734428951"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <div class="fcontact">
+          <div class="fcitem"><i class="fas fa-phone"></i><a href="tel:+27734428951">073 442 8951</a></div>
+          <div class="fcitem"><i class="fas fa-envelope"></i><a href="mailto:chavitotravelandtourism@gmail.com">chavitotravelandtourism@gmail.com</a></div>
+          <div class="fcitem"><i class="fas fa-map-marker-alt"></i><span>Johannesburg, Gauteng, South Africa</span></div>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#booking-process">Booking Process</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#faqs">FAQs</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="#booking-process" class="book-trigger">Airport Transfers</a></li>
+          <li><a href="#booking-process" class="book-trigger">Corporate Travel</a></li>
+          <li><a href="#booking-process" class="book-trigger">Luxury Tours</a></li>
+          <li><a href="#booking-process" class="book-trigger">Group &amp; Events</a></li>
+          <li><a href="#booking-process" class="book-trigger">Executive Rides</a></li>
+          <li><a href="#booking-process" class="book-trigger">Gift Vouchers</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bottom bar -->
+    <div class="footer-bottom">
+      <p>Copyright &copy; <span id="year"></span> Chavisto's Travel &amp; Tourism. All rights reserved.</p>
+      <div class="foot-badges">
+        <span class="foot-badge"><i class="fas fa-lock"></i> Secure EFT</span>
+        <span class="foot-badge"><i class="fas fa-headset"></i> 24/7 Support</span>
+        <span class="foot-badge"><i class="fas fa-shield-alt"></i> Verified Business</span>
+      </div>
+      <span class="credit-pill">
+        <span>Website developed by</span>
+        <a class="devlab-link" href="https://chabalaladevlab.co.za" target="_blank" rel="noopener noreferrer" aria-label="Visit ChabalalaDevLab website">
+          <img class="devlab-logo" src="ChabalalaDevLab (1).png" alt="ChabalalaDevLab logo" loading="lazy" decoding="async">
+        </a>
+      </span>
+    </div>
+  </footer>
+
+  <!-- FLOAT BUTTONS -->
+  <div class="float">
+    <a class="wa" href="https://wa.me/27734428951" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+    <a class="ph" href="tel:+27734428951"><i class="fas fa-phone"></i></a>
+    <a class="em" href="mailto:chavitotravelandtourism@gmail.com"><i class="fas fa-envelope"></i></a>
+  </div>
+
+  <!-- BACK TO TOP -->
+  <button class="to-top" id="toTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <!-- MODAL -->
+  <div class="modal" id="modal">
+    <div class="m-card">
+      <div class="m-head">
+        <h3>Book Premium Transport</h3>
+        <button class="x" id="close" type="button" aria-label="Close booking form"><i class="fas fa-times"></i></button>
+      </div>
+      <form class="form" id="bookingForm">
+        <div class="form-message" id="formMessage" role="status" aria-live="polite"></div>
+        <input type="text" name="name" placeholder="Full Name *" required>
+        <input type="tel" name="phone" placeholder="Phone Number *" required>
+        <input type="email" name="email" placeholder="Email Address *" required>
+        <select name="service" required>
+          <option value="">Service Type *</option>
+          <option>Airport Transfer</option>
+          <option>Private Ride</option>
+          <option>Corporate Transport</option>
+          <option>Group Shuttle</option>
+          <option>Tour Package</option>
+        </select>
+        <input type="text" name="pickup" placeholder="Pickup Location *" list="locationSuggestions" autocomplete="street-address" required>
+        <input type="text" name="dropoff" placeholder="Drop-off Location *" list="locationSuggestions" autocomplete="street-address" required>
+        <input type="date" name="date" id="travelDate" required>
+        <input type="time" name="time" required>
+        <select name="passengers" class="full" required>
+          <option value="">Passengers *</option>
+          <option>1-2</option><option>3-4</option><option>5-7</option><option>8-15</option><option>16+</option>
+        </select>
+        <textarea class="full" name="notes" placeholder="Special requests, luggage details, flight number, etc."></textarea>
+        <button class="full" type="submit"><i class="fab fa-whatsapp"></i>&nbsp; Continue on WhatsApp</button>
+      </form>
+      <datalist id="locationSuggestions"></datalist>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
